@@ -10,7 +10,7 @@ const WriteFileFunction = (contacts) => {
       console.error("Error al escribir en el archivo contacts.json:", err);
       return;
     }
-    console.log("Contacto eliminado exitosamente.");
+    console.log("Proceso completado exitosamente.");
   });
 };
 
